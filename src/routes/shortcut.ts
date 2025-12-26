@@ -38,4 +38,3 @@ shortcutRouter.get("/health", (_req: Request, res: Response) => {
   res.json({ status: "Shortcut mock is running 🚀" });
 });
 
-export default Router;

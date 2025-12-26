@@ -37,4 +37,3 @@ gitlabRouter.get("/health", (_req: Request, res: Response) => {
   res.json({ status: "GitLab mock is running 🦊" });
 });
 
-export default Router;

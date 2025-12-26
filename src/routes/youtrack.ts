@@ -37,4 +37,4 @@ youtrackRouter.get("/health", (_req: Request, res: Response) => {
   res.json({ status: "YouTrack mock is running 🧠" });
 });
 
-export default Router;
+

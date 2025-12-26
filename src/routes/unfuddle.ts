@@ -40,4 +40,3 @@ unfuddleRouter.get("/health", (_req: Request, res: Response) => {
   res.json({ status: "Unfuddle mock is running 🧩" });
 });
 
-export default Router;

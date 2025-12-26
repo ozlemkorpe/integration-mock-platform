@@ -44,4 +44,3 @@ redmineRouter.get("/health", (_req: Request, res: Response) => {
   res.json({ status: "Redmine mock is running 🧱" });
 });
 
-export default Router;

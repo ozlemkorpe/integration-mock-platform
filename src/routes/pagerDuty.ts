@@ -36,4 +36,4 @@ pagerDutyRouter.get("/health", (_req: Request, res: Response) => {
   res.json({ status: "PagerDuty mock is running 🚨" });
 });
 
-export default Router;
+

@@ -34,4 +34,3 @@ fogbugzRouter.get("/health", (_req: Request, res: Response) => {
   res.json({ status: "FogBugz mock is running 🐞" });
 });
 
-export default Router;

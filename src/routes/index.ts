@@ -11,6 +11,9 @@ import { redmineRouter } from "./redmine";
 import { unfuddleRouter } from "./unfuddle";
 import { shortcutRouter } from "./shortcut";
 import { youtrackRouter } from "./youtrack";
+import { freshServiceRouter } from "./freshService";
+import { kennaRouter } from "./kenna";
+import { pivotalTrackerRouter } from './pivotalTracker';
 
 export const apiRouter = Router();
 
@@ -26,6 +29,9 @@ apiRouter.use("/redmine", redmineRouter)
 apiRouter.use("/unfuddle", unfuddleRouter)
 apiRouter.use("/shortcut", shortcutRouter)
 apiRouter.use("/youtrack", youtrackRouter)
+apiRouter.use("/freshService", freshServiceRouter)
+apiRouter.use("/kenna", kennaRouter)
+apiRouter.use("/pivotalTracker", pivotalTrackerRouter)
 
 
 

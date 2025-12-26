@@ -35,4 +35,3 @@ bitbucketRouter.get("/health", (_req: Request, res: Response) => {
   res.json({ status: "Bitbucket mock is running 🧡" });
 });
 
-export default Router;
