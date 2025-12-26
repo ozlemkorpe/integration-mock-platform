@@ -14,6 +14,10 @@ import { youtrackRouter } from "./youtrack";
 import { freshServiceRouter } from "./freshService";
 import { kennaRouter } from "./kenna";
 import { pivotalTrackerRouter } from './pivotalTracker';
+import { tfsRouter } from './tfs';
+import { serviceNowRouter } from './serviceNow';
+import { jazzRouter } from './jazz';
+import { defectDojoRouter } from './defectDojo';
 
 export const apiRouter = Router();
 
@@ -32,6 +36,11 @@ apiRouter.use("/youtrack", youtrackRouter)
 apiRouter.use("/freshService", freshServiceRouter)
 apiRouter.use("/kenna", kennaRouter)
 apiRouter.use("/pivotalTracker", pivotalTrackerRouter)
+apiRouter.use("/tfs", tfsRouter)
+apiRouter.use("/pivotalTracker", pivotalTrackerRouter)
+apiRouter.use("/serviceNow", serviceNowRouter)
+apiRouter.use("/jazz", jazzRouter)
+apiRouter.use("/defectDojo", defectDojoRouter)
 
 
 
